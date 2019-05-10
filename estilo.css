@@ -1,0 +1,62 @@
+.topnav{
+    background-color: #0067A9;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #4c94c2;
+    color: black;
+}
+
+input[type=text], input[type=date], input[type=time], input[type=email], input[type=number], select,div{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical ;
+    border: 1px solid #E5EFF6;
+}
+
+.container{
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #e5eff6;
+    padding: 20px;
+    width: 50%;
+    opacity: 0.9;
+    
+}
+
+input[type=submit]{
+    background-color: #0067a9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+label{
+   font-size: 15px;
+}
+input[type=submit]:hover{
+    background-color: #4c94c2;
+}
+
+form{
+    margin-left: 30%;
+}
